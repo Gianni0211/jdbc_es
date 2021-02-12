@@ -21,6 +21,32 @@
   width: 200px;
   
 }
+
+.btn{
+ background-color: green;
+ color: white;
+ margin-top: 10px;
+ padding: 5px 8px 5px 8px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+
+.btn-update{
+  background-color: yellow;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px 8px 5px 8px;
+}
+
+.btn-remove{
+  background-color: red;
+  color: white;
+  margin-top: 10px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
 </style>
 <head>
 
@@ -31,10 +57,13 @@
 </head>
 <body>
 <h3>Utente: ${sessionScope.userName }</h3>
-	<form class="form" action="city_servlet">
+	<form class="form">
 	<label for="input">Inerisci una citta</label>
-	<input id="input" name="citta" placeholder="es. Milano" type="text">
-	<button type="submit" class="btn">Inserisci</button>
+	<input id="input" name="citta"  placeholder="es. Milano" type="text">
+	<button type="submit" formaction="city_servlet" class="btn">Cerca citta</button>
+	<button type="submit" formaction="updatecityform_servlet" class="btn-update">Modifica citta</button>
+	<button type="submit" formaction="deletecity_servlet" class="btn-remove">Cancella citta</button>
+	
 	</form>
 	<p class="err">${requestScope.res }</p>
 	<div class="result">
@@ -44,7 +73,7 @@
 	<p class="item">Popolazione: ${requestScope.city.getPopulation() }</p>
 	</div>
 	<form class="form" action="page2_servlet">
-	<button type="submit">Cerca paese</button>
+	<button class="btn" type="submit">Cerca paese</button>
 	</form>
 </body>
 </html>

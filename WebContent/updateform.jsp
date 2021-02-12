@@ -10,10 +10,13 @@
    margin: auto;
    margin-top: 80px;
 }
-.result{
-  margin: auto;
-  margin-top: 30px;
+
+
+.err{
+  margin: 20px auto 10px auto;
+  color: red;
   width: 200px;
+  
 }
 
 .btn{
@@ -33,10 +36,19 @@
 
 </head>
 <body>
-	<form class="form" action="user_servlet">
-	<label for="input">Inerisci un nome utente</label>
-	<input id="input" name="utente" placeholder="es. Mario21" type="text">
+<h3>Utente: ${sessionScope.userName }</h3>
+	<form class="form" action="updatecity_servlet">
+	<label for="input">Nome</label>
+	<input id="input" name="name" value="${sessionScope.oldName }" type="text">
+	<label for="input">Codice Paese</label>
+	<input id="input" name="countryCode" placeholder="es. ITA" type="text">
+	<label for="input">Distretto</label>
+	<input id="input" name="district" placeholder="es. Lombardia" type="text">
+	<label for="input">Popolazione</label>
+	<input id="input" name="population" placeholder="es. 10000" type="text">
 	<button type="submit" class="btn">Inserisci</button>
+	
+	${requestScope.res }
 	</form>
 	
 	

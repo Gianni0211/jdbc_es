@@ -16,6 +16,15 @@
   width: 200px;
 }
 
+.btn{
+ background-color: green;
+ color: white;
+ margin-top: 10px;
+ padding: 5px 8px 5px 8px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+
 .err{
   margin: 20px auto 10px auto;
   color: red;
@@ -49,7 +58,7 @@
 	</div>
 	
 	<form class="form" action="page1_servlet">
-	<button type="submit">Cerca citta</button>
+	<button class="btn" type="submit">Cerca citta</button>
 	</form>
 </body>
 </html>

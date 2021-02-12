@@ -55,5 +55,33 @@
 		<url-pattern>/user_servlet</url-pattern>
 
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>DeleteCityServlet</servlet-name>
+		<servlet-class>it.jdbc.jsp.servlet.DeleteCityServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+		<servlet-name>DeleteCityServlet</servlet-name>
+		<url-pattern>/deletecity_servlet</url-pattern>
+
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdateCityServlet</servlet-name>
+		<servlet-class>it.jdbc.jsp.servlet.UpdateCityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>UpdateCityServlet</servlet-name>
+		<url-pattern>/updatecity_servlet</url-pattern>
+
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdateCityFormServlet</servlet-name>
+		<servlet-class>it.jdbc.jsp.servlet.UpdateCityFormServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+		<servlet-name>UpdateCityFormServlet</servlet-name>
+		<url-pattern>/updatecityform_servlet</url-pattern>
+
+	</servlet-mapping>
   
 </web-app>
