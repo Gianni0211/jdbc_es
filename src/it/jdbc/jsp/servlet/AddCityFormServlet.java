@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class UpdateCityFormServlet extends HttpServlet {
+public class AddCityFormServlet extends HttpServlet {
 
 	/**
 	 * 
@@ -17,10 +17,8 @@ public class UpdateCityFormServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-		String oldName = req.getParameter("citta");
-
-		req.getSession().setAttribute("oldName", oldName);
-		RequestDispatcher rd = req.getRequestDispatcher("updateform.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("addform.jsp");
 		rd.forward(req, resp);
 	}
+
 }

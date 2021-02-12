@@ -75,5 +75,8 @@
 	<form class="form" action="page2_servlet">
 	<button class="btn" type="submit">Cerca paese</button>
 	</form>
+	<form class="form" action="addcityform_servlet">
+	<button class="btn" type="submit">Aggiungi citta</button>
+	</form>
 </body>
 </html>

@@ -83,5 +83,23 @@
 		<url-pattern>/updatecityform_servlet</url-pattern>
 
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddCityFormServlet</servlet-name>
+		<servlet-class>it.jdbc.jsp.servlet.AddCityFormServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+		<servlet-name>AddCityFormServlet</servlet-name>
+		<url-pattern>/addcityform_servlet</url-pattern>
+
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddCityServlet</servlet-name>
+		<servlet-class>it.jdbc.jsp.servlet.AddCityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>AddCityServlet</servlet-name>
+		<url-pattern>/addcity_servlet</url-pattern>
+
+	</servlet-mapping>
   
 </web-app>

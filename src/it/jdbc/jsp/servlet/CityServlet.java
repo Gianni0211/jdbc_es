@@ -21,6 +21,7 @@ public class CityServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
 		String cityName = req.getParameter("citta");
 		CityDao cityDao = new CityImplDao();
 		City city = cityDao.findCityByName(cityName);
