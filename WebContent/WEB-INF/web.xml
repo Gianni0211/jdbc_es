@@ -9,7 +9,7 @@
   
    <servlet>
 		<servlet-name>CityServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.CityServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.CityServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 		<servlet-name>CityServlet</servlet-name>
@@ -18,7 +18,7 @@
 	</servlet-mapping>
 	 <servlet>
 		<servlet-name>CountryServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.CountryServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.CountryServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 		<servlet-name>CountryServlet</servlet-name>
@@ -28,7 +28,7 @@
 	
 	<servlet>
 		<servlet-name>Page2Servlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.Page2Servlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.Page2Servlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
@@ -38,7 +38,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>Page1Servlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.Page1Servlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.Page1Servlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
@@ -48,7 +48,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>UserServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.UserServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.UserServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 		<servlet-name>UserServlet</servlet-name>
@@ -57,7 +57,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>DeleteCityServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.DeleteCityServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.DeleteCityServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
@@ -67,7 +67,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>UpdateCityServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.UpdateCityServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.UpdateCityServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 		<servlet-name>UpdateCityServlet</servlet-name>
@@ -76,7 +76,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>UpdateCityFormServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.UpdateCityFormServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.UpdateCityFormServlet</servlet-class>
   </servlet>
    <servlet-mapping>
 		<servlet-name>UpdateCityFormServlet</servlet-name>
@@ -85,7 +85,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AddCityFormServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.AddCityFormServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.AddCityFormServlet</servlet-class>
   </servlet>
    <servlet-mapping>
 		<servlet-name>AddCityFormServlet</servlet-name>
@@ -94,7 +94,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AddCityServlet</servlet-name>
-		<servlet-class>it.jdbc.jsp.servlet.AddCityServlet</servlet-class>
+		<servlet-class>it.objectmethods.esercizi.servlet.AddCityServlet</servlet-class>
   </servlet>
   <servlet-mapping>
 		<servlet-name>AddCityServlet</servlet-name>
